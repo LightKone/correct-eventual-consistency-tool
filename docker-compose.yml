@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  cec:
+    build: .
+    volumes: 
+      - .:/usr/src/app
+
+    entrypoint: ["java", "-jar", "CEC.jar", "mono /boogie/Binaries/Boogie.exe"]

@@ -1,0 +1,7 @@
+[
+    {
+        "operation1": "withdraw",
+        "operation2": "withdraw",
+        "restrictions": ["@1 != @3"]
+    }
+]
