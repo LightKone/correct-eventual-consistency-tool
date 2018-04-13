@@ -1,0 +1,30 @@
+@type datatype
+@name CrdtFlag  
+
+
+@content
+
+type CrdtFlag = bool;
+//this is an enable wins flag
+
+function initialiseFlag(flag:CrdtFlag) returns (bool)
+{
+  (flag == false)
+}
+
+function setFlag(flag:CrdtFlag) returns(bool)
+{
+  (flag == true)
+}
+
+function resetFlag(flag:CrdtFlag) returns(bool)
+{
+  (if (flag == true) then (flag == true) else (flag == false))
+}
+
+function status(flag:CrdtFlag) returns(bool)
+{
+  (flag)
+}
+
+@equals @this == @other;

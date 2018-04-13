@@ -1,0 +1,22 @@
+[
+    {
+        "operation1": "acquireCredit",
+        "operation2": "acquireCredit",
+        "restrictions": ["@1 != @4"]
+    },
+    {
+        "operation1": "releaseCredit",
+        "operation2": "releaseCredit",
+        "restrictions": ["@2 != @5"]
+    },
+    {
+        "operation1": "releaseCredit",
+        "operation2": "withdraw",
+        "restrictions": ["@2 != @5"]
+    },
+    {
+        "operation1": "withdraw",
+        "operation2": "withdraw",
+        "restrictions": ["@2 != @5"]
+    }
+]

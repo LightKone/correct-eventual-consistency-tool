@@ -1,0 +1,11 @@
+[
+    {"operation1" : "createRx",
+     "operation2" : "createRx",
+     "restrictions" : ["@4 != @8"]},
+    {"operation1" : "addMedication",
+     "operation2" : "sealRx",
+     "restrictions" : ["@1 != @4"]},
+    {"operation1" : "processRx",
+     "operation2" : "processRx",
+     "restrictions" : ["@1 != @3"]}
+]

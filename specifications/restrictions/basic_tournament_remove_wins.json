@@ -1,0 +1,7 @@
+[
+    {
+        "operation1": "remTournament",
+        "operation2": "enroll",
+        "restrictions": ["@1 != @3"]
+    }
+]

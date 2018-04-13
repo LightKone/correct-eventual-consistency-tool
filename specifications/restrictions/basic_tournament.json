@@ -1,0 +1,12 @@
+[
+    {
+        "operation1": "remTournament",
+        "operation2": "enroll",
+        "restrictions": ["@1 != @3"]
+    },
+    {
+        "operation1": "addTournament",
+        "operation2": "remTournament",
+        "restrictions": ["@1 != @2"]
+    }
+]
