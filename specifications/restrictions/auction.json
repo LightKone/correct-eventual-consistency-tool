@@ -1,0 +1,52 @@
+[
+    {
+        "operation1": "createAuction",
+        "operation2": "createAuction",
+        "restrictions": ["@1 != @3"]
+    },
+    {
+        "operation1": "closeAuction",
+        "operation2": "closeAuction",
+        "restrictions": ["@1 != @4"]
+    },
+    {
+        "operation1": "addlot",
+        "operation2": "removeLot",
+        "restrictions": ["@2 != @6"]
+    },
+    {
+        "operation1": "startAuction",
+        "operation2": "addlot",
+        "restrictions": ["@1 != @3"]
+    },
+    {
+        "operation1": "deleteAuction",
+        "operation2": "addlot",
+        "restrictions": ["@1 != @3"]
+    },
+    {
+        "operation1": "removeLot",
+        "operation2": "removeLot",
+        "restrictions": ["@2 != @5"]
+    },
+    {
+        "operation1": "addlot",
+        "operation2": "addlot",
+        "restrictions": ["@2 != @6"]
+    },
+    {
+        "operation1": "closeAuction",
+        "operation2": "placeBid",
+        "restrictions": ["@1 != @4"]
+    },
+    {
+        "operation1": "placeBid",
+        "operation2": "placeBid",
+        "restrictions": ["@2 != @6"]
+    },
+    {
+        "operation1": "startAuction",
+        "operation2": "removeLot",
+        "restrictions": ["@1 != @3"]
+    }
+]
