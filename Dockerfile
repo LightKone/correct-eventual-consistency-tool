@@ -44,7 +44,7 @@ RUN git clone https://github.com/boogie-org/boogie.git \
 ##  1 parse errors detected in test.bpl
 
 #Installing java
-RUN apt-get -y update && apt-get -y upgrade && apt-get clean
+RUN apt-get -y update && apt-get clean
 RUN apt-get -y install default-jdk && apt-get clean
 
 RUN mkdir -p /usr/src/app
